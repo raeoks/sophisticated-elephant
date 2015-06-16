@@ -1,0 +1,26 @@
+.clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+html, body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $base-font-color;
+  background-color: $base-background-color;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  background-color: #ccc;
+  height: 1px;
+}

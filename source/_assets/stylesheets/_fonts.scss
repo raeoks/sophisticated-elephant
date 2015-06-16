@@ -1,0 +1,155 @@
+/* Bebas Neue (regular) */
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(asset_path('fonts/bebas-neue/regular.eot'));
+  src: url(asset_path('fonts/bebas-neue/regular.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/bebas-neue/regular.woff')) format('woff'),
+  url(asset_path('fonts/bebas-neue/regular.ttf')) format('truetype'),
+  url(asset_path('fonts/bebas-neue/regular.svg#BebasNeueRegular')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Vollkorn (regular) */
+@font-face {
+  font-family: 'Vollkorn';
+  src: url(asset_path('fonts/vollkorn/regular.eot'));
+  src: url(asset_path('fonts/vollkorn/regular.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/vollkorn/regular.woff')) format('woff'),
+  url(asset_path('fonts/vollkorn/regular.ttf')) format('truetype'),
+  url(asset_path('fonts/vollkorn/regular.svg#VollkornRegular')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Vollkorn (bold) */
+@font-face {
+  font-family: 'Vollkorn';
+  src: url(asset_path('fonts/vollkorn/bold.eot'));
+  src: url(asset_path('fonts/vollkorn/bold.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/vollkorn/bold.woff')) format('woff'),
+  url(asset_path('fonts/vollkorn/bold.ttf')) format('truetype'),
+  url(asset_path('fonts/vollkorn/bold.svg#VollkornBold')) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Vollkorn (italic) */
+@font-face {
+  font-family: 'Vollkorn';
+  src: url(asset_path('fonts/vollkorn/italic.eot'));
+  src: url(asset_path('fonts/vollkorn/italic.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/vollkorn/italic.woff')) format('woff'),
+  url(asset_path('fonts/vollkorn/italic.ttf')) format('truetype'),
+  url(asset_path('fonts/vollkorn/italic.svg#VollkornItalic')) format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Vollkorn (bold italic) */
+@font-face {
+  font-family: 'Vollkorn';
+  src: url(asset_path('fonts/vollkorn/bolditalic.eot'));
+  src: url(asset_path('fonts/vollkorn/bolditalic.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/vollkorn/bolditalic.woff')) format('woff'),
+  url(asset_path('fonts/vollkorn/bolditalic.ttf')) format('truetype'),
+  url(asset_path('fonts/vollkorn/bolditalic.svg#VollkornBoldItalic')) format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Bitter (regular) */
+@font-face {
+  font-family: 'Bitter';
+  src: url(asset_path('fonts/bitter/regular.eot'));
+  src: url(asset_path('fonts/bitter/regular.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/bitter/regular.woff')) format('woff'),
+  url(asset_path('fonts/bitter/regular.ttf')) format('truetype'),
+  url(asset_path('fonts/bitter/regular.svg#BitterRegular')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bitter (bold) */
+@font-face {
+  font-family: 'Bitter';
+  src: url(asset_path('fonts/bitter/bold.eot'));
+  src: url(asset_path('fonts/bitter/bold.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/bitter/bold.woff')) format('woff'),
+  url(asset_path('fonts/bitter/bold.ttf')) format('truetype'),
+  url(asset_path('fonts/bitter/bold.svg#BitterBold')) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Bitter (italic) */
+@font-face {
+  font-family: 'Bitter';
+  src: url(asset_path('fonts/bitter/italic.eot'));
+  src: url(asset_path('fonts/bitter/italic.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/bitter/italic.woff')) format('woff'),
+  url(asset_path('fonts/bitter/italic.ttf')) format('truetype'),
+  url(asset_path('fonts/bitter/italic.svg#BitterItalic')) format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Bitter (bold italic) */
+@font-face {
+  font-family: 'Bitter';
+  src: url(asset_path('fonts/bitter/bolditalic.eot'));
+  src: url(asset_path('fonts/bitter/bolditalic.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/bitter/bolditalic.woff')) format('woff'),
+  url(asset_path('fonts/bitter/bolditalic.ttf')) format('truetype'),
+  url(asset_path('fonts/bitter/bolditalic.svg#BitterBoldItalic')) format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Ubuntu Mono (regular) */
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url(asset_path('fonts/ubuntu-mono/regular.eot'));
+  src: url(asset_path('fonts/ubuntu-mono/regular.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/ubuntu-mono/regular.woff')) format('woff'),
+  url(asset_path('fonts/ubuntu-mono/regular.ttf')) format('truetype'),
+  url(asset_path('fonts/ubuntu-mono/regular.svg#UbuntuMonoRegular')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Ubuntu Mono (bold) */
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url(asset_path('fonts/ubuntu-mono/bold.eot'));
+  src: url(asset_path('fonts/ubuntu-mono/bold.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/ubuntu-mono/bold.woff')) format('woff'),
+  url(asset_path('fonts/ubuntu-mono/bold.ttf')) format('truetype'),
+  url(asset_path('fonts/ubuntu-mono/bold.svg#UbuntuMonoBold')) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Ubuntu Mono (italic) */
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url(asset_path('fonts/ubuntu-mono/italic.eot'));
+  src: url(asset_path('fonts/ubuntu-mono/italic.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/ubuntu-mono/italic.woff')) format('woff'),
+  url(asset_path('fonts/ubuntu-mono/italic.ttf')) format('truetype'),
+  url(asset_path('fonts/ubuntu-mono/italic.svg#UbuntuMonoItalic')) format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Ubuntu Mono (bold italic) */
+@font-face {
+  font-family: 'UbuntuMono';
+  src: url(asset_path('fonts/ubuntu-mono/bolditalic.eot'));
+  src: url(asset_path('fonts/ubuntu-mono/bolditalic.eot?#iefix')) format('embedded-opentype'),
+  url(asset_path('fonts/ubuntu-mono/bolditalic.woff')) format('woff'),
+  url(asset_path('fonts/ubuntu-mono/bolditalic.ttf')) format('truetype'),
+  url(asset_path('fonts/ubuntu-mono/bolditalic.svg#UbuntuMonoBoldItalic')) format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
