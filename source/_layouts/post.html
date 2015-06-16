@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<section class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+  <article class="post-content">
+    {{ content }}
+  </article>
+  <footer class="post-footer">
+    last modified by
+    {% if page.author %}
+      {% if page.contact %}
+        <a href="mailto:{{ page.contact }}">{{ page.author }}</a>
+      {% else %}
+        {{ page.author }}
+      {% endif %}
+    {% else %}
+      {% if site.email %}
+        <a href="mailto:{{ site.email }}">{{ site.author }}</a>
+      {% else %}
+        {{ site.author }}
+      {% endif %}
+    {% endif %}
+    on {{ page.date | date: "%B %-d, %Y" }}
+  </footer>
+</section>
+
+{% if page.comments == true %}
+  <section class="comments">
+    <div id="disqus_thread" aria-live="polite">
+      {% include disqus.html %}
+    </div>
+  </section>
+{% endif %}

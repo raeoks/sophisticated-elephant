@@ -1,0 +1,51 @@
+title: Sophisticated Elephant
+author: Ranjeet Singh
+email: ranjeetxsingh@gmail.com
+description: Personal &amp; Engineering Blog
+baseurl: ""
+url: "http://SophisticatedElephant.com"
+root: /
+
+source: source
+destination: build/production/public
+highlighter: rouge
+markdown: kramdown
+
+paginate: 10
+paginate_path: "posts/:num"
+rss_feed: "/feed.xml"
+
+twitter_username: raeoks
+github_username:  raeoks
+linkedin_username: raeoks
+
+disqus_shortname: sophisticated-elephant
+disqus_url: "http://SophisticatedElephant.com"
+google_analytics_tracking_id: UA-55891236-1
+
+gems:
+  - jekyll-sitemap
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets
+    - _assets/fonts
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+  cache: true
+  cachebust: hard
+  compress:
+    css:  sass
+    js:   uglifier
+  gzip: [text/css, application/javascript]
+  debug: false
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [preview]

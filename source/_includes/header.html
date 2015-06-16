@@ -1,0 +1,63 @@
+<header class="site-header text-center">
+  <div class="logo">
+    <a href="{{ site.url }}">
+      <div class="logo-wrapper">
+        <img src="{% asset_path sophisticated-elephant-logo.png %}" alt="A Sophisticated Elephant" class="img-rounded"
+             onerror="this.onerror=null; this.src='{% asset_path sophisticated-elephant-logo.png %}'">
+      </div>
+    </a>
+  </div>
+  <h2 class="subtitle">
+    &lt;
+    <a href="http://ranjeetsingh.me" target="_blank" title="Author/{{ site.author }}">
+      {{ site.author }}
+    </a>'s
+    {{ site.description }}
+    /&gt;
+  </h2>
+  <h1 class="title">
+    <a href="{{ site.url }}">{{ site.title }}</a>
+  </h1>
+  <div class="socials">
+    <ul class="list-inline">
+      {% if site.email %}
+      <li>
+        <a href="mailto:{{ site.email }}" target="_blank" title="Email/{{ site.email }}">
+          {% icon fa-envelope %}
+        </a>
+      </li>
+      {% endif %}
+      {% if site.linkedin_username %}
+      <li>
+        <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"
+           title="LinkedIn/{{ site.linkedin_username }}">
+          {% icon fa-linkedin %}
+        </a>
+      </li>
+      {% endif %}
+      {% if site.github_username %}
+      <li>
+        <a href="http://github.com/{{ site.github_username }}" target="_blank"
+           title="GitHub/{{ site.github_username }}">
+          {% icon fa-github-alt %}
+        </a>
+      </li>
+      {% endif %}
+      {% if site.twitter_username %}
+      <li>
+        <a href="http://twitter.com/{{ site.twitter_username }}" target="_blank"
+           title="Twitter/{{ site.twitter_username }}">
+          {% icon fa-twitter %}
+        </a>
+      </li>
+      {% endif %}
+      {% if site.rss_feed %}
+      <li>
+        <a href="{{ site.url }}{{ site.rss_feed }}" target="_blank" title="SophisticatedElephant/rss">
+          {% icon fa-rss %}
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</header>
