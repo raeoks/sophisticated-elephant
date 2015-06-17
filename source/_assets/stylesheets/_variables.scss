@@ -3,7 +3,7 @@ $serif: "Adelle", "Bitter", "Vollkorn", "Baskerville", serif !default;
 $mono: "UbuntuMono", "Courier", monospace !default;
 
 $base-font-weight: 400;
-$base-font-size: 16px;
+$base-font-size: 1em;
 $base-line-height: 1.5;
 $base-font-family: $serif;
 $base-font-color: #32393d;
@@ -15,3 +15,5 @@ $text-color: #94999c;
 $font-color: #32393d;
 $link-color: #008fd5;
 $link-color-hover: #161c1f;
+
+$post-content-font-size: 1.2em;
